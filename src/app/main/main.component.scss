@@ -1,0 +1,357 @@
+.first-section {
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-color: black;
+}
+
+.headline-portrait {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 64px;
+    margin-left: 180px;
+}
+
+.red {
+    color: #fa2759;
+}
+
+.green {
+    color: #2DFCD8;
+}
+
+.portrait {
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    margin-right: 180px;
+    object-fit: cover;
+}
+
+.contact-btn {
+    width: 300px;
+    height: 80px;
+    margin-left: 180px;
+    color: #2DFCD8;
+    border: 1px solid #2DFCD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    &:hover {
+        cursor: pointer;
+        color: whitesmoke;
+        background-color: #2DFCD8;
+    }
+}
+
+.scroll-down-arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.arrow-down {
+    &:hover {
+        cursor: pointer;
+        animation: arrowDownAnimation 225ms ease-in-out;
+        animation-fill-mode: forwards;
+    }
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.skill-section {
+    background-color: #1a1a1a;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cards-row {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.card {
+    height: 120px;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+    img {
+        position: absolute;
+        top: -20%;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        background-color: whitesmoke;
+    }
+}
+
+.my-work-section {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.my-work-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.my-work-btn {
+    height: 60px;
+    width: 100px;
+    color: whitesmoke;
+    border: 2px solid #fa2759;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    &:hover {
+        cursor: pointer;
+        background-color: #fa2759;
+    }
+}
+
+.my-work-project-row {
+    display: flex;
+    justify-content: center;
+}
+
+.my-work-project {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 40px;
+    background-color: rgb(55, 55, 55);
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 400px;
+    background-color: rgba($color: #ffffff, $alpha: 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+.project-overlay-1 {
+    color: #fa2759;
+    font-weight: bold;
+}
+
+.project-overlay-btn {
+    height: 50px;
+    width: 120px;
+    background-color: whitesmoke;
+    color: #fa2759;
+    border: 2px solid #fa2759;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        cursor: pointer;
+        background-color: #fa2759;
+    }
+}
+
+.about-me-section {
+    background-color: #1a1a1a;
+    color: whitesmoke;
+}
+
+.about-me {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 200px;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-bottom: 2px solid #2dfcd8;
+}
+
+.about-portrait {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-right: 180px;
+    object-fit: cover;
+}
+
+.about-me-headline {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.journey-section {
+    display: flex;
+    padding-top: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 80px;
+}
+
+.journey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
+.icon-background {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #2dfcd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-section {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section-top {
+    width: 600px;
+}
+
+.contact-headline {
+    color: #2dfcd8;
+    font-size: 64px;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.contact-text {
+    color: gray;
+}
+
+span {
+    color: #2dfcd8;
+}
+
+.contact-section-bottom {
+    width: 600px;
+    padding-top: 80px;
+}
+
+label {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+input {
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 40px;
+    color: gray;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    &:focus {
+        border: 1px solid #2dfcd8;
+    }
+}
+
+textarea {
+    background-color: #1a1a1a;
+    width: 100%;
+    color: gray;
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    resize: none;
+    margin-top: 10px;
+    outline: none;
+    font-family: Roboto, Helvetica, sans-serif;
+    &:focus {
+        border: 1px solid #2dfcd8;
+    }
+}
+
+.button-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 200px;
+    width: 100%;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    margin-left: 180px;
+    color: #2DFCD8;
+    border: 1px solid #2DFCD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-right: -16px;
+    margin-top: 20px;
+    &:hover {
+        cursor: pointer;
+        color: whitesmoke;
+        background-color: #2DFCD8;
+    }
+}
+
+@keyframes arrowDownAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}

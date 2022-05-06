@@ -1,0 +1,25 @@
+footer {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-left {
+    color: gray;
+    padding-left: 180px;
+}
+
+a {
+    color: gray;
+    padding-right: 50px;
+}
+
+.links {
+    display: flex;
+    padding-right: 180px;
+    a {
+        padding-left: 50px;
+    }
+}
