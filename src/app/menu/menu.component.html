@@ -2,9 +2,18 @@
 
     <img src="assets/img/saku.png" class="logo">
     <div class="menu-links">
-        <a href="#" class="link">HOME</a>
-        <a href="#about" class="link">ABOUT</a>
-        <a href="#portfolio" class="link">PORTFOLIO</a>
+        <a href="#" class="link hide-mobile">HOME</a>
+        <a href="#about" class="link hide-mobile">ABOUT</a>
+        <a href="#portfolio" class="link hide-mobile">PORTFOLIO</a>
+    </div>
+    <!--Dropdown menu for responsive-->
+    <div class="dropdown">
+        <img src="assets/img/dropdown-btn.png" ng-click="dropdown()" class="dropbtn">
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#menu_id" id="nav_1">MENU</a>
+            <a href="#location_id" id="nav_2">LOCATIONS</a>
+            <a href="#" id="nav_3">ABOUT</a>
+        </div>
     </div>
 
 </header>

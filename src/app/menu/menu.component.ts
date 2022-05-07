@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  
+dropdown() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
   constructor() { }
 
   ngOnInit(): void {

@@ -363,3 +363,105 @@ textarea {
         transform: translateY(20px);
     }
 }
+
+@media(max-width: 1000px) {
+    .hide-mobile {
+        display: none;
+    }
+    .headline-portrait {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+    .portrait {
+        height: 300px;
+        width: 300px;
+        margin: 0;
+    }
+    .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+    .contact-btn {
+        margin: unset;
+        margin-top: 40px;
+    }
+    h1 {
+        margin: unset;
+    }
+    .my-work-project-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-me {
+        margin: unset;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .about-portrait {
+        margin: unset;
+    }
+    .journey-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-text {
+        max-width: 90%;
+        word-break: break-all;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 750px) {
+    input {
+        width: 50%;
+    }
+    textarea {
+        width: 50%;
+    }
+    .button-section {
+        justify-content: center;
+        .button {
+            margin-left: unset;
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    h1 {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+    .contact-btn {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .cards-row {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+    .card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .my-work-project {
+        width: 300px;
+        height: 300px;
+    }
+    .project-overlay {
+        width: 300px;
+        height: 300px;
+    }
+    .journey-section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

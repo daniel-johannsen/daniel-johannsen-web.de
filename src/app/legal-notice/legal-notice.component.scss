@@ -8,3 +8,13 @@
         color: #2DFCD8;
     }
 }
+
+@media(max-width: 1000px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
