@@ -8,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
 
   
+/**
+ * This function is used to show the dropdown menu.
+ */
 dropdown() {
   document.getElementById("myDropdown").classList.toggle("show");
-}
+};
 
   constructor() { }
 
