@@ -154,10 +154,14 @@ h2 {
     width: 400px;
     height: 400px;
     margin: 40px;
-    background-color: rgb(55, 55, 55);
-    &:hover {
-        cursor: pointer;
-    }
+}
+
+.project-img {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    width: 400px;
+    height: 400px;
 }
 
 .project-overlay {
@@ -172,6 +176,10 @@ h2 {
     align-items: center;
     justify-content: space-evenly;
     font-size: 18px;
+}
+
+.d-none {
+    display: none;
 }
 
 .project-overlay-1 {
@@ -267,7 +275,7 @@ p {
 }
 
 .contact-section-top {
-    width: 600px;
+    width: 40%;
 }
 
 .contact-headline {
@@ -286,7 +294,7 @@ span {
 }
 
 .contact-section-bottom {
-    width: 600px;
+    width: 40%;
     padding-top: 80px;
 }
 
@@ -377,7 +385,7 @@ textarea {
     .portrait {
         height: 300px;
         width: 300px;
-        margin: 0;
+        margin-right: 0 !important;
     }
     .btn-container {
         display: flex;
@@ -445,13 +453,7 @@ textarea {
 
 @media(max-width: 600px) {
     h1 {
-        margin-left: 50px;
-        margin-right: 50px;
         text-align: center;
-    }
-    .contact-btn {
-        margin-left: 50px;
-        margin-right: 50px;
     }
     .cards-row {
         flex-direction: column;
