@@ -2,6 +2,11 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: unset;
+}
+
 .first-section {
     min-height: 100vh;
     width: 100vw;
