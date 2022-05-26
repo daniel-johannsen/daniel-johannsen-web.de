@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+.container {
+    overflow: hidden;
+}
+
 a {
     text-decoration: none;
     color: unset;
@@ -298,8 +302,11 @@ p {
     color: gray;
 }
 
-span {
+.mail-link {
     color: #2dfcd8;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .contact-section-bottom {
