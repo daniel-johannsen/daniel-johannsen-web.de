@@ -131,13 +131,13 @@
             <p data-aos="fade-up" class="contact-text">Get in touch via the form below, or by emailing <br> <a href="mailto:daniel-johannsen@web.de" class="mail-link">daniel-johannsen@web.de</a></p>
         </div>
         <div class="contact-section-bottom">
-            <form action="./src/app/contact/send_mail.php" method="post">
+            <form action="./src/app/main/send_mail.php" method="post">
                 <label data-aos="fade-up" for="">Name</label>
-                <input data-aos="fade-up" required type="text" placeholder="Enter your name">
+                <input data-aos="fade-up" required name="name" type="text" placeholder="Enter your name">
                 <label data-aos="fade-up" for="">Email address</label>
-                <input data-aos="fade-up" required type="text" placeholder="Enter your Email address">
+                <input data-aos="fade-up" required name="e-mail-adress" type="text" placeholder="Enter your Email address">
                 <label data-aos="fade-up" for="">Message</label>
-                <textarea data-aos="fade-up" required name="" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                <textarea data-aos="fade-up" required name="message" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
                 <div class="button-section">
                     <button type="submit" data-aos="zoom-in-left" class="button">
                         Send
