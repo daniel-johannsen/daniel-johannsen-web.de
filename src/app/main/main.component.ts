@@ -34,6 +34,7 @@ export class MainComponent implements OnInit {
     document.getElementById('kanbanProject').classList.add('d-none');
     document.getElementById('elPolloLoco').classList.add('d-none');
     document.getElementById('pokedex').classList.add('d-none');
+    document.getElementById('homepage').classList.remove('d-none');
   }
 
 
@@ -41,6 +42,9 @@ export class MainComponent implements OnInit {
    * This function is used to show all the JavaScript projects.
    */
   showJavaScriptProjects() {
+    document.getElementById('kanbanProject').classList.remove('d-none');
+    document.getElementById('elPolloLoco').classList.remove('d-none');
+    document.getElementById('pokedex').classList.remove('d-none');
     document.getElementById('homepage').classList.add('d-none');
   }
 
