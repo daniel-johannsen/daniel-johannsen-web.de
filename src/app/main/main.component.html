@@ -42,12 +42,12 @@
     <div class="my-work-section" id="portfolio">
         <h2 data-aos="fade-up">My work</h2>
         <div class="my-work-nav">
-            <div data-aos="zoom-in-right" class="my-work-btn">All</div>
-            <div data-aos="zoom-in-up" class="my-work-btn">Angular</div>
-            <div data-aos="zoom-in-left" class="my-work-btn">JavaScript</div>
+            <div data-aos="zoom-in-right" (click)="showAllProjects()" class="my-work-btn">All</div>
+            <div data-aos="zoom-in-up" (click)="showAngularProjects()" class="my-work-btn">Angular</div>
+            <div data-aos="zoom-in-left" (click)="showJavaScriptProjects()" class="my-work-btn">JavaScript</div>
         </div>
         <div class="my-work-project-row">
-            <div data-aos="zoom-in-right" class="my-work-project">
+            <div data-aos="zoom-in-right" class="my-work-project" id="kanbanProject">
                 <img src="assets/img/board.PNG" data-aos="zoom-in-left" class="my-work-project project-img " id="join" (mouseover)="showOverlay('1')">
                 <div class="project-overlay d-none" id="overlay1" (mouseleave)="removeOverlay('1')">
                     <div class="project-overlay-1">Join</div>
@@ -64,10 +64,6 @@
                 </div>
             </div>
         </div>
-
-
-        <!--project section-->
-
 
         <div class="my-work-project-row">
             <div data-aos="zoom-in-right" class="my-work-project">

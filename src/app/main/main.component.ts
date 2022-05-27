@@ -17,6 +17,23 @@ export class MainComponent implements OnInit {
     document.getElementById(id).classList.add('d-none');
   }
 
+  showAngularProjects() {
+    document.getElementById('kanbanProject').classList.add('d-none');
+    document.getElementById('elPolloLoco').classList.add('d-none');
+    document.getElementById('pokedex').classList.add('d-none');
+  }
+
+  showJavaScriptProjects() {
+    document.getElementById('homepage').classList.add('d-none');
+  }
+
+  showAllProjects() {
+    document.getElementById('kanbanProject').classList.remove('d-none');
+    document.getElementById('elPolloLoco').classList.remove('d-none');
+    document.getElementById('pokedex').classList.remove('d-none');
+    document.getElementById('homepage').classList.remove('d-none');
+  }
+
   constructor() { }
 
   ngOnInit(): void {
