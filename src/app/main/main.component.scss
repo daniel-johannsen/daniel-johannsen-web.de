@@ -192,6 +192,8 @@ h2 {
 
 .project-img {
     position: absolute;
+    object-fit: cover;
+    object-position: 23%;
     top: -40px;
     left: -40px;
     width: 400px;
