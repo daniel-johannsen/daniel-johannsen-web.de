@@ -69,6 +69,22 @@ export class MainComponent implements OnInit {
     document.getElementById('angular').classList.remove('button-active');
   }
 
+
+  /**
+   * This function is used to show that the e-mail is sent sucessfully.
+   */
+  success() {
+    let name = document.getElementById('name');
+    let email = document.getElementById('email');
+    let message = document.getElementById('message');
+    
+    if ((name as HTMLInputElement).value != "" &&
+        (email as HTMLInputElement).value != "" &&
+        (message as HTMLInputElement).value !="") {
+          alert('e-mail sent successfully!');
+        }    
+  }
+
   constructor() { }
 
   ngOnInit(): void {

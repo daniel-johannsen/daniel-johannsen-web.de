@@ -27,7 +27,7 @@ a {
 h1 {
     color: whitesmoke;
     font-size: 64px;
-    margin-left: 180px;
+    margin-left: 190px;
 }
 
 .red {
@@ -219,6 +219,11 @@ h2 {
 .project-overlay-1 {
     color: #fa2759;
     font-weight: bold;
+}
+
+.project-overlay-2 {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .project-overlay-btn {
@@ -481,6 +486,10 @@ textarea {
 }
 
 @media(max-width: 750px) {
+    h1 {
+        text-align: center;
+        font-size: 48px;
+    }
     input {
         width: 100%;
     }
@@ -496,8 +505,12 @@ textarea {
 }
 
 @media(max-width: 600px) {
-    h1 {
-        text-align: center;
+    .portrait {
+        height: 250px;
+        width: 250px;
+    }
+    .contact-btn {
+        width: 250px;
     }
     .cards-row {
         flex-direction: column;

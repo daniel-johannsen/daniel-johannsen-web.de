@@ -144,13 +144,13 @@
         <div class="contact-section-bottom">
             <form action="http://f01462d7@daniel-johannsen.developerakademie.net/daniel-johannsen/send_mail.php" method="post">
                 <label data-aos="fade-up" for="">Name</label>
-                <input data-aos="fade-up" required name="name" type="text" placeholder="Enter your name">
+                <input data-aos="fade-up" id="name" required name="name" type="text" placeholder="Enter your name">
                 <label data-aos="fade-up" for="">Email address</label>
-                <input data-aos="fade-up" required name="e-mail-adress" type="text" placeholder="Enter your Email address">
+                <input data-aos="fade-up" id="email" required name="e-mail-adress" type="text" placeholder="Enter your Email address">
                 <label data-aos="fade-up" for="">Message</label>
-                <textarea data-aos="fade-up" required name="message" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                <textarea data-aos="fade-up" required name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
                 <div class="button-section">
-                    <button type="submit" data-aos="zoom-in-left" class="button">
+                    <button type="submit" data-aos="zoom-in-left" class="button" (click)="success()">
                         Send
                     </button>
 
