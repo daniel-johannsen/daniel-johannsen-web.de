@@ -3,7 +3,7 @@
 ########### CONFIG ###############
 
 $recipient = 'daniel-johannsen@web.de';
-$redirect = 'https://daniel-johannsen.de';
+$redirect = 'http://f01462d7@daniel-johannsen.developerakademie.net/daniel-johannsen/index.html';
 
 ########### CONFIG END ###########
 
@@ -40,7 +40,7 @@ switch ($_SERVER['REQUEST_METHOD']) {
         header("Access-Control-Allow-Origin: *");
 
         $subject = "Contact From " . $_POST['name'];
-        $headers = "From:  noreply@developerakademie.com";
+        $headers = "From: " . $_POST['e-mail-adress'];
 
         mail($recipient, $subject, $_POST['message'], $headers);
         header("Location: " . $redirect); 
