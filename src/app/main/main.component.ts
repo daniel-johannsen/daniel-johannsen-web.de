@@ -35,6 +35,10 @@ export class MainComponent implements OnInit {
     document.getElementById('elPolloLoco').classList.add('d-none');
     document.getElementById('pokedex').classList.add('d-none');
     document.getElementById('homepage').classList.remove('d-none');
+    document.getElementById('all').classList.remove('button-active');
+    document.getElementById('javaScript').classList.remove('button-active');
+    document.getElementById('angular').classList.add('button-active');
+    
   }
 
 
@@ -46,6 +50,9 @@ export class MainComponent implements OnInit {
     document.getElementById('elPolloLoco').classList.remove('d-none');
     document.getElementById('pokedex').classList.remove('d-none');
     document.getElementById('homepage').classList.add('d-none');
+    document.getElementById('all').classList.remove('button-active');
+    document.getElementById('javaScript').classList.add('button-active');
+    document.getElementById('angular').classList.remove('button-active');
   }
 
 
@@ -57,6 +64,9 @@ export class MainComponent implements OnInit {
     document.getElementById('elPolloLoco').classList.remove('d-none');
     document.getElementById('pokedex').classList.remove('d-none');
     document.getElementById('homepage').classList.remove('d-none');
+    document.getElementById('all').classList.add('button-active');
+    document.getElementById('javaScript').classList.remove('button-active');
+    document.getElementById('angular').classList.remove('button-active');
   }
 
   constructor() { }

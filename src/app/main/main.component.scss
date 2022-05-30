@@ -21,7 +21,7 @@ a {
 .headline-portrait {
     display: flex;
     justify-content: space-between;
-    padding-top: 160px;
+    padding-top: 180px;
 }
 
 h1 {
@@ -172,6 +172,10 @@ h2 {
         cursor: pointer;
         background-color: #fa2759;
     }
+}
+
+.button-active {
+    background-color: #fa2759;
 }
 
 .my-work-project-row {
