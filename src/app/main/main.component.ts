@@ -38,7 +38,6 @@ export class MainComponent implements OnInit {
     document.getElementById('all').classList.remove('button-active');
     document.getElementById('javaScript').classList.remove('button-active');
     document.getElementById('angular').classList.add('button-active');
-    window.scroll(0, 1789);
   }
 
 
@@ -53,7 +52,6 @@ export class MainComponent implements OnInit {
     document.getElementById('all').classList.remove('button-active');
     document.getElementById('javaScript').classList.add('button-active');
     document.getElementById('angular').classList.remove('button-active');
-    window.scroll(0, 1789);
   }
 
 
@@ -68,7 +66,6 @@ export class MainComponent implements OnInit {
     document.getElementById('all').classList.add('button-active');
     document.getElementById('javaScript').classList.remove('button-active');
     document.getElementById('angular').classList.remove('button-active');
-    window.scroll(0, 1789);
   }
 
 
