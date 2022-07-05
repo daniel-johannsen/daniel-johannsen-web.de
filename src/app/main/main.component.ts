@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main',
@@ -72,7 +73,7 @@ export class MainComponent implements OnInit {
   /**
    * This function is used to show that the e-mail is sent sucessfully.
    */
-  success() {
+   checkForSuccess() {
     let name = document.getElementById('name');
     let email = document.getElementById('email');
     let message = document.getElementById('message');
@@ -80,11 +81,12 @@ export class MainComponent implements OnInit {
     if ((name as HTMLInputElement).value != "" &&
         (email as HTMLInputElement).value != "" &&
         (message as HTMLInputElement).value !="") {
-          alert('e-mail sent successfully!');
+          this.router.navigate(['/success']);
         }    
   }
 
-  constructor() { }
+
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }

@@ -8,6 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { LegalNoticeComponent } from './legal-notice/legal-notice.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { SuccessComponent } from './success/success.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
     MenuComponent,
     FooterComponent,
     LegalNoticeComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,
