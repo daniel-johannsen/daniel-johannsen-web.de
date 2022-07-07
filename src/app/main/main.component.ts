@@ -81,6 +81,7 @@ export class MainComponent implements OnInit {
     if ((name as HTMLInputElement).value != "" &&
         (email as HTMLInputElement).value != "" &&
         (message as HTMLInputElement).value !="") {
+          console.log('mail successfull !')
           this.router.navigate(['/success']);
         }    
   }
