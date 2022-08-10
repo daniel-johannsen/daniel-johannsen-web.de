@@ -465,9 +465,13 @@ textarea {
     .journey-section {
         flex-direction: column;
         align-items: center;
+        padding-bottom: 0;
     }
     .journey {
         width: unset;
+    }
+    .journey-text {
+        margin-bottom: 80px;
     }
     .contact-section-top,
     .contact-section-bottom {
